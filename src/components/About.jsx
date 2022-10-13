@@ -1,10 +1,15 @@
 import AboutImage from "../assets/about.png";
 export const About = () => {
   return (
-    <div className="w-full h-screen p-4 flex flex-col items-center justify-center bg-[#161616] text-white">
-      <h1 className="uppercase text-6xl font-black mb-12">About us</h1>
+    <div
+      id="about"
+      className="w-full md:h-screen p-4 flex flex-col items-center justify-center bg-[#161616] text-white"
+    >
+      <h1 className="uppercase text-2xl md:text-6xl font-black mb-12">
+        About us
+      </h1>
       <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-        <p className="w-[50%] text-sm">
+        <p className="w-[90%] md:w-[50%] text-sm">
           We pride ourselves at being able to get our customer into the car that
           they want, and more importantly, at they price they are looking for.
           <br />

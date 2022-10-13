@@ -13,24 +13,24 @@ export const NavBar = () => {
     <div>
       <div className="flex  justify-between p-6 text-black md:text-white items-center">
         <h1 className="uppercase  font-black text-2xl md:text-3xl">
-          Prime Car
+          <a href="#">Prime Car</a>
         </h1>
         <ul className=" gap-4 hidden md:flex">
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Benefits</a>
+            <a href="#benefits">Benefits</a>
           </li>
           <li>
-            <a href="#">Cars</a>
+            <a href="#cars">Cars</a>
           </li>
         </ul>
         <a
-          href="#"
+          href="#contact"
           className="border border-black md:border-white p-2 hidden md:flex"
         >
           Contact Us
@@ -64,19 +64,23 @@ export const NavBar = () => {
           <nav className="flex flex-col mt-8">
             <ul className="uppercase">
               <li onClick={() => setNav(false)} className="py-4 text-sm">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li onClick={() => setNav(false)} className="py-4 text-sm">
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li onClick={() => setNav(false)} className="py-4 text-sm">
-                <a href="#">Benefits</a>
+                <a href="#benefits">Benefits</a>
               </li>
               <li onClick={() => setNav(false)} className="py-4 text-sm">
-                <a href="#">Cars</a>
+                <a href="#cars">Cars</a>
               </li>
             </ul>
-            <a href="#" className="py-4 text-sm">
+            <a
+              href="#contact"
+              onClick={() => setNav(false)}
+              className="py-4 text-sm"
+            >
               Contact Us
             </a>
           </nav>

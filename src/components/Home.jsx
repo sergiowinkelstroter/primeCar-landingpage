@@ -14,7 +14,7 @@ export const Home = () => {
     >
       <NavBar />
       <div className="flex">
-        <div className="w-[85%]"></div>
+        <div className="w-[85%] hidden md:block"></div>
         <main className="mx-4 text-black flex flex-col mt-24 gap-2 md:items-end md:text-end md:text-white">
           <h1 className="text-4xl md:text-7xl font-black">
             More economy, same speed

@@ -4,4 +4,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  @apply scroll-smooth;
+}
+
+a {
+  @apply hover:opacity-70;
 }
