@@ -2,7 +2,7 @@
 
 Landing Page sobre os carros mais queridos do momento para quem quer andar com estilo sem gastar muito!!
 
-<img src="./prime-car.png" />
+<img src="./public/prime-car.png" />
 
 ## Tecnologias utilizadas:
 
